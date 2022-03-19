@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Api::V1::RegistrationsController < Devise::RegistrationsController
   before_action :ensure_params_exist, only: :create
   # sign up
@@ -9,7 +7,6 @@ class Api::V1::RegistrationsController < Devise::RegistrationsController
       render json: {
         message: 'Signed Up Successfuly',
         is_success: true,
-
         data: {
           user: user
         }
@@ -20,7 +17,6 @@ class Api::V1::RegistrationsController < Devise::RegistrationsController
         is_success: false,
         data: {}
       }, status: :unprocessable_entity
-
     end
   end
 
