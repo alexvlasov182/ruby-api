@@ -6,6 +6,10 @@ Style/FrozenStringLiteralComment:
 
 Metrics/MethodLength:
   Max: 1000
+  
+Metrics/AbcSize:
+  Max: 1000
 
 Style/ClassAndModuleChildren:
   EnforcedStyle: compact
+
