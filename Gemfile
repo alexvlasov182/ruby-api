@@ -60,4 +60,5 @@ gem 'devise', '~> 4.3.0'
 
 gem 'simple_token_authentication', '~> 1.0'
 
+gem 'faker'
 gem 'koala', '~> 3.0.0'
