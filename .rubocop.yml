@@ -13,3 +13,5 @@ Metrics/AbcSize:
 Style/ClassAndModuleChildren:
   EnforcedStyle: compact
 
+Style/NumericPredicate:
+  Enabled: false
